@@ -1,0 +1,5 @@
+buckets,E_log2_Z,Z_max,bpb_unnorm,bpb_norm,rho,source,pod
+1048576,9.6060,1023.96,0.15538,4.10,0.71,MEASURE_Z_EVERY=10 + lambda_sweep,pod4
+4194304,9.0938,1015.75,0.35858,4.09,0.71,MEASURE_Z_EVERY=10 + ratio_estimate,pod4
+16777216,7.8336,829.35,0.87930,4.10,0.71,MEASURE_Z_EVERY=10 + ratio_estimate,pod4
+67108864,5.6301,428.15,1.77358,4.08,0.71,MEASURE_Z_EVERY=10 + lambda_0.5_extrapolation,pod4

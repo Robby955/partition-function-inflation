@@ -1,0 +1,9 @@
+lambda,bpb,buckets,alpha,seed,source,notes
+0.0,0.15543569,1048576,2.0,1337,lambda_sweep,unnormalized (standard)
+0.1,0.54808049,1048576,2.0,1337,lambda_sweep,10% normalization
+0.2,0.94072524,1048576,2.0,1337,lambda_sweep,20% normalization
+0.3,1.33336999,1048576,2.0,1337,lambda_sweep,30% normalization — exceeds 1.13 baseline
+0.5,2.11865919,1048576,2.0,1337,lambda_sweep,50% normalization
+0.7,2.91615165,1048576,2.0,1337,lambda_sweep,70% normalization — measured (predicted 2.904)
+1.0,4.09923179,1048576,2.0,1337,lambda_sweep,100% normalization — measured (predicted 4.082)
+0.5,2.92879414,67108864,2.0,1337,lambda_bonus_64M,cross-bucket validation: slope 2.31 vs 1M slope 3.93 ratio=0.588 matches E[log2Z] ratio 0.586

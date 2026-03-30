@@ -1,0 +1,10 @@
+seed,config,buckets,alpha,bpb,neural_baseline,source,notes
+1337,neural_only,,,1.13000,,seed1337_training,int6 roundtrip
+1337,1M_a2,1048576,2.0,0.15535996,1.130,exp1_original,
+1337,64M_a2,67108864,2.0,1.77346204,1.130,exp1_original,
+2026,neural_only,,,1.15200,,seed2026_training,int6 roundtrip 5440/20000 steps
+2026,1M_a2,1048576,2.0,0.15537638,1.152,seed2026_evals,
+2026,64M_a2,67108864,2.0,1.77355425,1.152,seed2026_evals,
+415,neural_only,,,1.27200,,seed415_training,int6 roundtrip (1794 steps)
+415,1M_a2,1048576,2.0,0.15562686,1.272,seed415_evals,
+415,64M_a2,67108864,2.0,1.77480004,1.272,seed415_evals,
